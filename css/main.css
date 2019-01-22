@@ -3,14 +3,14 @@
 /*  Document =======================================================*/
 
 * {
-  box-sizing: border-border-box;
+  box-sizing: border-box;
 }
 
 .top {
   padding-top: .2em;
   padding-bottom: .5em;
   width: 100%;
-  background-color: lightblue;
+  background-color: #00ffff;
 }
 
 .container {
@@ -23,14 +23,38 @@ h1 {
   color: blue;
 }
 
+.main-footer {
+  padding-top: .1px;
+  height:  60px;
+  background-color: #ff9900;
+}
+
+.nested {
+  padding-left: 20px;
+}
+
 /* =============================================
             media queries
  ==================================================== */
 
  @media (min-width:  769px) {
+
+   .wrap {
+      min-height:  calc(100vh-60px);
+   }
+
    .container {
      margin: 0 auto;
      width: 70%;
      max-width: 1000px;
    }
+
+/*  potential lists or links though not placed or named
+current items on watchlist if I make it: NATO  Balkans  Venezuala  Ukraine
+   .watch-list,
+   .main-nav li,
+   .main-nav {
+     display: inline;
+   }
+   */
  }
