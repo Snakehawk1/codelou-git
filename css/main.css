@@ -1,0 +1,36 @@
+/*!project-file main css for codelou project William Spencer*/
+
+/*  Document =======================================================*/
+
+* {
+  box-sizing: border-border-box;
+}
+
+.top {
+  padding-top: .2em;
+  padding-bottom: .5em;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.container {
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+h1 {
+  color: blue;
+}
+
+/* =============================================
+            media queries
+ ==================================================== */
+
+ @media (min-width:  769px) {
+   .container {
+     margin: 0 auto;
+     width: 70%;
+     max-width: 1000px;
+   }
+ }
