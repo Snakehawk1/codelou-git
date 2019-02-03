@@ -28,6 +28,11 @@ h1 {
   background: #ff9900;
 }
 
+.footer-links li {
+  display: inline;
+  padding-left: 10px;
+}
+
 
 /* =============================================
             media queries
@@ -36,7 +41,7 @@ h1 {
  @media (min-width:  769px) {
 
    .wrap {
-      min-height:  calc(100vh - 89px);
+      min-height:  calc(100vh - 150px);
    }
 
    .container {
