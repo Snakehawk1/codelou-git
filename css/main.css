@@ -12,14 +12,17 @@ header {
   background: #66ccff;
 }
 
-/*.header-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.flock  {
+  width: 460px;
 }
-.header-links li {
-  background-color: #ffffcc;
-}*/
+
+.soul {
+  width: 280px;
+}
+
+.monotone {
+  display: inline-block;
+}
 
 .container {
   text-align: center;
@@ -37,10 +40,6 @@ h1 {
   background: #ff9900;
 }
 
-/*.footer-links li {
-  display: inline;
-  padding-left: 10px;
-}*/
 
 
 /* =============================================
@@ -59,12 +58,4 @@ h1 {
      max-width: 1100px;
     }
   }
-/*  potential lists or links though not placed or named
-current items on watchlist if I make it: NATO  Balkans  Venezuala  Ukraine
-   .watch-list,
-   .main-nav li,
-   .main-nav {
-     display: inline;
-   }
-   */
  }
