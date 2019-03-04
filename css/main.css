@@ -10,24 +10,53 @@
   font-family: 'Times New Roman', Georgia, serif;
 }
 
+/* Sticky h2 stays at top left of page during scrolling.  
+Text is centered within the 300px wide box*/
+
+h2 {
+  margin: 3rem 0 0;
+  text-align: center; 
+  width: 300px;
+  background-color: #3333cc;
+  color: #99ffcc;
+  justify-content: center;
+}
 
 header {
-  /*padding-top: .2em;*/
+  padding-top: .8em;
   padding-bottom: 1.4em;
-  background: #66ccff;
+  background: #ccccff;
+}
+
+.pretty {
+  justify-content: center;
+}
+
+.verticalleft {
+  max-width: 25px;
+  display: inline-flex;
+  margin: 0 2% 0 0;
+  padding-right: 60px;
 }
 
 /*-- Image layout -- */
 .flock  {
-  max-width: 460px;
+  max-width: 500px;
+  background-color:  #00ccff;
+  display: inline-block; 
 }
 .soul {
-  max-width: 280px;
+  max-width: 240px;
   background-color: #ffcc00;
   border-radius: .6em; 
+  display: inline-block; 
 }
-.monotone {
+
+.verticalright {
+  width: 25px;
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -38,6 +67,24 @@ header {
 
 h1 {
   color: blue;
+}
+
+.ltgn {
+  background-color: #ccffff;
+  padding-bottom: 1.5rem;
+}
+
+.ltgn h4 {
+  padding-top: 1rem;
+}
+
+.pur {
+
+}
+
+.pur h5 {
+  padding: 1rem;
+
 }
 
 .main-footer {
@@ -53,16 +100,16 @@ h1 {
             media queries
  ==================================================== */
 
- @media (min-width:  769px) {
+ /* @media (min-width:  769px) { */
 
    /*.wrap {
       min-height:  calc(100vh - 150px);    
    } */
 
-   .container {
+  /* .container {
      margin: 0 auto;
      width: 70%;
      max-width: 1100px;
-    }
+    } */
   }
  }
