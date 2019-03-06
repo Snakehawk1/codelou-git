@@ -14,7 +14,7 @@
 Text is centered within the 300px wide box*/
 
 h2 {
-  margin: 3rem 0 0;
+  margin: 1rem 0 0;
   text-align: center; 
   width: 300px;
   background-color: #3333cc;
@@ -24,19 +24,13 @@ h2 {
 
 header {
   padding-top: .8em;
-  padding-bottom: 1.4em;
+  padding-bottom: 1em;
   background: #ccccff;
 }
 
 .pretty {
-  justify-content: center;
-}
-
-.verticalleft {
-  max-width: 25px;
-  display: inline-flex;
-  margin: 0 2% 0 0;
-  padding-right: 60px;
+  align: center;
+  padding-top: 2em;
 }
 
 /*-- Image layout -- */
@@ -52,11 +46,15 @@ header {
   display: inline-block; 
 }
 
-.verticalright {
-  width: 25px;
+.verticalright {    /*Verticle Navbar on the right hand side of the page*/
   display: inline-block;
-  margin: 0;
-  padding: 0;
+  align-self: flex-start;
+  padding-top: -4rem;
+}
+
+.flex-column {
+  margin-top: -2rem;
+  padding-top: -2rem;
 }
 
 .container {
@@ -75,16 +73,13 @@ h1 {
 }
 
 .ltgn h4 {
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
-.pur {
-
-}
-
-.pur h5 {
-  padding: 1rem;
-
+.questions {
+  max-width: 400px;
+  margin: 0 auto;
+  align: center;
 }
 
 .main-footer {
