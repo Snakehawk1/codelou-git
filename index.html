@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   
     <!--rest of css normalize and main-->
-    <link rel="stylesheet" href="css/normalize.css">
+    <!--<link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -17,12 +17,12 @@
     <div class="wrap">
       <header>
         <!--Container for inline pics + vertical navbar-->
-        <div class="pretty container align-items-baseline">           
+        <div class="pretty container">           
           <!--- Pictures in Header -->
-            
-          <Img class="flock" src="img/flock-2952495.svg"></img>
-          <img class="soul" src="img/unknown-1769656.svg"><img> 
-        
+          <div class="pics">
+            <Img class="flock" src="img/flock-2952495.svg"/>
+            <img class="soul" src="img/unknown-1769656.svg"/>
+          </div>
           <div class="verticalright"> <!---Right Navbar -->
             <nav class="nav flex-column">
               <a class="nav-link" href="#">Home</a>
@@ -42,38 +42,47 @@
         <h4>In modern debate 'expert' voices are not always reliable.<br>
           And Public perception is lacking.<br>
           Yet intelligence still speaks.<br><br>
-          This site applies heart and logic with a little humor to 
+          This site applies heart,logic, and humor to 
           understand current events with a discerning eye.
         </h4>
       </div>  
               
-        <div class="container"> 
-          <h5> Can we filter the news, look deeper and apply historical context to ask the right questions?<br><br>
-            Should Julian Assange be protected?<br>
-            Who started the Russiagate narrative-why?<br>
-            When did the military industrial complex begin?<br>
-            How do we reverse the poisoning of our planet?
-          </h5>
-        </div>
-        <div class="container">
-          <img class="questions" src="img/questions-2132217_640.jpg"></img>
-        </div>
+      <div class="container"> 
+        <h5> Can we filter the news, look deeper and apply historical context to ask the right questions?<br><br>
+          Should Julian Assange be protected?<br>
+          Who started the Russiagate narrative-why?<br>
+          When did the military industrial complex begin?<br>
+          How do we reverse the poisoning of our planet?
+        </h5>
+      </div>
+    </div>
+
+      <div class="container pressbtn">
+        <legend>Click to glimpse beyond the nonsense 
+          in episode 1 of:</legend>
+        <a href="#" id="pbtn" class="pbtn">
+          <h3>Nonsense Neutralizer</h3></a>
+      </div>
+      
+    <!---------------------Modal Section--------------------------->
+
+    <div class="bkg-popup">
+      <div class="popup">
+        <p>lorem ipsum lorem ipsum</p>
+        <p>yadadadadadadadadadad</p>
+        <a href="http://www.wikipedia.com">Wikipedia</a>
+        <a href="#" class="close">+</a>
+      </div>
+  </div>
+    
+
+    <div class="container qstns">     <!--Diagram of questions Critical analysis-->
+        <img class="questions" src="img/questions-2132217_640.jpg"></img>
       </div>
 
     <footer class="main-footer">
-      
-        <!--<nav class="footnav">
-          <ul class="footer-links">
-            <li><a href="">Title</a></li>
-            <li><a href="">Title</a></li>
-            <li><a href="">Title</a></li>
-            <li><a href="">Title</a></li>
-          </ul>
-        </nav> -->
-
-        <span>&copy;Media links frequently updated,
+      <span>&copy;Media links frequently updated,
           --------2019, William Spencer</span>
-      
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>

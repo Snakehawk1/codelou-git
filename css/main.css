@@ -29,11 +29,14 @@ header {
 }
 
 .pretty {
-  align: center;
   padding-top: 2em;
 }
 
 /*-- Image layout -- */
+.pics {
+  display: inline;
+}
+
 .flock  {
   max-width: 500px;
   background-color:  #00ccff;
@@ -64,7 +67,10 @@ header {
 }
 
 h1 {
-  color: blue;
+  color: red;
+  background-color: #ffffcc;
+  width: 350px;
+  margin: 0 auto;
 }
 
 .ltgn {
@@ -76,10 +82,63 @@ h1 {
   padding-top: 2rem;
 }
 
+.pressbtn {
+  margin-top: 30px;
+  background-color: #ffcc99;
+  padding: 30px 30px 50px;
+  max-width: 700px;
+}
+
+#pbtn h3 {     /*  This is the button that will activate the modal */
+  text-size: 4em;
+  margin: auto;
+  padding-top: 10px;
+  width: 280px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+}
+
 .questions {
-  max-width: 400px;
+  max-width: 350px;
   margin: 0 auto;
   align: center;
+}
+
+.qstns  {
+  background-color: #ccffff;
+}
+
+/*--------- Modals ------------*/
+
+.bkg-popup {
+  width: 100%vh;
+  height: 100%vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*display: none;*/
+}
+
+.popup {
+  width: 350px;
+  height: 200px;
+  background: #009900;
+  border-radius: 8px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+#close {
+  position: absolute;
+  top: 0;
+  font-size: 40px;
+  transform: rotate(45deg);
 }
 
 .main-footer {
@@ -90,21 +149,3 @@ h1 {
 }
 
 
-
-/* =============================================
-            media queries
- ==================================================== */
-
- /* @media (min-width:  769px) { */
-
-   /*.wrap {
-      min-height:  calc(100vh - 150px);    
-   } */
-
-  /* .container {
-     margin: 0 auto;
-     width: 70%;
-     max-width: 1100px;
-    } */
-  }
- }
